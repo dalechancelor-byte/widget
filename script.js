@@ -14,5 +14,3 @@ function showRandom() {
 btn.addEventListener('click', showRandom);
 window.addEventListener('load', showRandom);
 
-
-Add script.js
