@@ -11,5 +11,3 @@ body, html { margin:0; padding:0; font-family:'Courier New', monospace; backgrou
   box-shadow:0 0 5px rgba(0,0,0,0.1);
 }
 #new-quote:hover { background:#e0e0e0; }
-
-Add style.css
