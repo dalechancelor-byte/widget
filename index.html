@@ -10,16 +10,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css" />
+  <!-- Note the ./ for GitHub Pages project paths -->
+  <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
   <main class="container">
-    <section class="card">
+    <section class="card" aria-live="polite">
       <header class="card-head">
         <h1>Dev Quote</h1>
       </header>
 
-      <blockquote id="quote" class="quote">Loading quote…</blockquote>
+      <blockquote id="quote" class="quote" role="status">Loading quote…</blockquote>
 
       <div class="actions">
         <button id="new-quote" class="btn" type="button">Next quote</button>
@@ -27,6 +28,8 @@
     </section>
   </main>
 
-  <script src="script.js" defer></script>
+  <noscript>This widget needs JavaScript enabled.</noscript>
+  <script src="./script.js" defer></script>
 </body>
 </html>
+
