@@ -1,13 +1,32 @@
-  <!-- your widget markup -->
-  <div id="quote-widget">
-    <pre id="quote">Loading quote…</pre>
-    <button id="new-quote">Next Quote</button>
-  </div>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quote Widget</title>
 
-  <!-- link to your CSS -->
-  <link rel="stylesheet" href="style.css">
+  <!-- Optional: modern font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
-  <!-- load your JS after the markup -->
-  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <header class="card-head">
+        <h1>Dev Quote</h1>
+      </header>
+
+      <blockquote id="quote" class="quote">Loading quote…</blockquote>
+
+      <div class="actions">
+        <button id="new-quote" class="btn" type="button">Next quote</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
