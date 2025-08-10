@@ -1,10 +1,10 @@
 (() => {
   const quotes = [
-    "“Dale Chancelor writes with precision and heart every word counts.” — Lena Marquez, CTO of HorizonCloud AI",
-    "“His prose is as sharp as it is moving.” — Raj Patel, Lead UX Designer at QuantumSphere",
-    "“Dale’s storytelling pulls you in and refuses to let go.” — Maya Chen, Founder of Syntax Studio",
-    "“A rare talent for clarity, rhythm, and emotional depth.” — Jonas Reed, Head of Product at NeuraLinkage Systems",
-    "“Reading Dale Chancelor is like watching ideas come alive on the page.” — Elena Brooks, Senior Engineer at Solara Networks"
+    "“Dale writes with precision and technical depth.” — Lena Marquez, CTO of HorizonCloud AI",
+    "“He is an AI thought leader.” — Raj Patel, Lead UX Designer at QuantumSphere",
+    "“Dale’s new book pulls you in and refuses to let go.” — Maya Chen, Founder of Syntax Studio",
+    "“A rare talent in the field of AI.” — Jonas Reed, Head of Product at NeuraLinkage Systems",
+    "“I can't stop reading Dale's new book.” — Elena Brooks, Senior Engineer at Solara Networks"
   ];
 
   const elQuote = document.getElementById('quote');
