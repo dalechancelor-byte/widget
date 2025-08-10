@@ -1,10 +1,10 @@
 (() => {
   const quotes = [
-    "“Programs must be written for people to read, and only incidentally for machines to execute.” – Harold Abelson",
-    "“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler",
-    "“First, solve the problem. Then, write the code.” – John Johnson",
-    "“Experience is the name everyone gives to their mistakes.” – Oscar Wilde",
-    "“Simplicity is the soul of efficiency.” – Austin Freeman"
+    "“Dale Chancelor writes with precision and heart every word counts.” — Lena Marquez, CTO of HorizonCloud AI",
+    "“His prose is as sharp as it is moving.” — Raj Patel, Lead UX Designer at QuantumSphere",
+    "“Dale’s storytelling pulls you in and refuses to let go.” — Maya Chen, Founder of Syntax Studio",
+    "“A rare talent for clarity, rhythm, and emotional depth.” — Jonas Reed, Head of Product at NeuraLinkage Systems",
+    "“Reading Dale Chancelor is like watching ideas come alive on the page.” — Elena Brooks, Senior Engineer at Solara Networks"
   ];
 
   const elQuote = document.getElementById('quote');
